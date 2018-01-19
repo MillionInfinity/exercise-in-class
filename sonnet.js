@@ -6,5 +6,5 @@ console.log(orphanIndex);
 var orphanLength= str.lenght;
 var orphanreplace = str.replace("winter", "yuletide");
 var orphanReeplace = orphanreplace.split("the").join("a large");
-document.getElementById('sonnet').innerHTML = orphanValue + sonnetLength + sonnetReplaceWord;
+document.getElementById('sonnet').innerHTML = orphanIndex + orphanLength + orphanReeplace;
 
